@@ -6,7 +6,11 @@ Elle ne s'arrête pas après un calcul il faut faire "end" pour quitter la calcu
 
 Pour rajouter un nombre:
 
- numx = float(input("Entrer le x chiffre ou nombre")) 
+ouvrer le fichier Calculatrice.py
+
+aller à la ligne 34 est rajouter en dessous de num2
+
+ numx = float(input("Entrer le x chiffre ou nombre")) (changer x par le nombres suivant par exemple après num2 c'est num 3 et ainsi de suite)
 
  (ex:  num3 = float(input("Entrer le troisième chiffre ou nombre")) )
 
