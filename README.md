@@ -1,5 +1,10 @@
 # Calculatrice
 
+/!\Pré-requis/!\
+
+Il faut python d'installer sur votre machine si vous ne l'avez pas installer le ici: https://www.microsoft.com/store/productid/9NRWMJP3717K?ocid=pdpshare
+
+
 Calculatrice permettant de faire des additions, soustractions, multiplications et divisions
 
 Elle ne s'arrête pas après un calcul il faut faire "end" pour quitter la calculatrice
