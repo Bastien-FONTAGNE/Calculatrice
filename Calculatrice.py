@@ -25,13 +25,13 @@ while True:
     print("Entrer 'end' pour quitter la calculatrice") 
 
     choix = input(": ")
-
+    #Quitte la calculatrice
     if choix == "end":
         break
-
+        
     if choix in  ("additions, soustractions, multiplication, division"):
-        num1 = float(input("Entrer le premier chiffre ou nombre"))
-        num2 = float(input("Entrer le deuxieme chiffre ou nombre"))
+        num1 = float(input("Entrer le premier chiffre ou nombre: "))
+        num2 = float(input("Entrer le deuxieme chiffre ou nombre: "))
 
     if choix == "addition":
         print("Resultat:", addition(num1, num2))
