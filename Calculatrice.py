@@ -7,7 +7,7 @@ def soustraction(a, b):
 #Fonctions qui permet de faire une multiplication
 def multiplication(a, b):
     return a * b
-#Fonctions qui permet de farie une division
+#Fonctions qui permet de faire une division
 def division(a, b):
     if b == 0:
         return "Il est impossible de diviser par 0. Veuillez réessayer"
