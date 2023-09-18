@@ -18,10 +18,10 @@ while True:
 
     #Menu de la calculatrice
     print("Menu de la calculatrice veuillez choisir votre option")
-    print("Entrez 'addition', 'add' ou '+' pour additioner des chiffres ou nombres (exemple 1+1 = 2)")
-    print("Entrez 'soustraction', 'sub' ou '-' pour soustraire des chiffres ou nombres (exemple 1-1 = 0)")
-    print("Entrer 'multiplication', 'multipl' ou '*' pour multiplier des chiffres ou des nombres (exemple 2*2 = 4)")
-    print("Entrer 'division', 'div' ou '/' pour diviser des chiffres ou des nombres (exemple 2/2 = 1)")
+    print("Entrez 'addition' pour additioner des chiffres ou nombres (exemple 1+1 = 2)")
+    print("Entrez 'soustraction' pour soustraire des chiffres ou nombres (exemple 1-1 = 0)")
+    print("Entrer 'multiplication' pour multiplier des chiffres ou des nombres (exemple 2*2 = 4)")
+    print("Entrer 'division' pour diviser des chiffres ou des nombres (exemple 2/2 = 1)")
     print("Entrer 'end' pour quitter la calculatrice") 
 
     choix = input(": ")
@@ -29,17 +29,17 @@ while True:
     if choix == "end":
         break
         
-    if choix in  ("addition", "add", "+", "soustraction", "sub", "-", "multiplication", "multipl", "*", "division", "div", "/"):
+    if choix in  ("additions, soustractions, multiplication, division"):
         num1 = float(input("Entrer le premier chiffre ou nombre: "))
         num2 = float(input("Entrer le deuxieme chiffre ou nombre: "))
 
-    if choix == "addition" or choix == "add" or choix == "+":
+    if choix == "addition":
         print("Resultat:", addition(num1, num2))
-    elif choix == "soustraction" or choix == "sub" or choix == "-":
+    elif choix == "soustraction":
         print("Resultat:", soustraction(num1, num2))
-    elif choix == "multiplication" or choix == "multipl" or choix == "*":
+    elif choix == "multiplication":
         print("Resultat:", multiplication(num1, num2))
-    elif choix == "division" or choix == "div" or choix == "/":
+    elif choix == "division":
         print("Resultat", division(num1, num2))
     else:
         print("Options invalide veuillez réessayer")
